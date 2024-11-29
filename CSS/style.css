@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f3f3;
+
+}
+header {
+   background: url(https://exploresumba.com/wp-content/uploads/2023/03/Sumba-Island-Map-Indonesia-Explore-Sumba-travel-agency-Indonesia.jpg) center/cover no-repeat;
+   padding:  8rem 0;
+   text-align: center;
+   color: #ffffff;
+   position:relative ;
+}
+
+header ::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+nav {
+    background-color: deepskyblue;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin:0 outo;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu {
+     list-style-type: none;
+     display: flex;
+}
+.menu li {
+    margin: 0 1rem;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ff0000;
+
+}
+
+main{
+    max-width: 1200px;
+    margin: 2rem outo;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.destinasi-populer{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.destinasi.h2{
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.destinasi-item{
+background-color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+margin:  0.5rem;
+max-width: 300px;
+margin-right: 20px;
+margin-left: 20px;
+padding: 1rem;
+border-radius: 5px;
+flex: 1;
+text-align: center;
+transition: transfrom 0.3s ea;
+}
+.destinasi-item:hover{
+    transform: scale(1.1);
+
+}
+.destinasi-item  img {
+    max-width: 100%;
+    height: auto;
+    background-origin: 2px;
+}
+.destinasi-item h5 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.destinasi-item p{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.destinasi-item button{
+    background-color: #1cb3a6;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: beckground-color 0.3s ease; 
+}
+
+.destinasi-item button:hover{
+    background-color: #555;
+    color: white;
+}
+
+.paket-wisata {
+margin-bottom: 2rem;
+text-align: center;
+}
+
+.paket-wisata h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.paket-wisata-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paket-wisata-item {
+   background-color: white;
+   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+   flex: 1;
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.paket-wisata-item:hover {
+    transform: scale(1.1);
+}
+.paket-wisata-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.paket-wisata-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.paket-wisata-item p{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.paket-wisata-item button{
+    background-color: #1cb3a6;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: beckground-color 0.3s ease; 
+}
+
+.paket-wisata-item button:hover{
+    background-color: #555;
+    color: white;
+}
+.Kontak{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.Kontak h2 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+.Kontak-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}   
+.Kontak-info {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: left;
+}
+.Kontak-item {
+    
+    align-items: flex-start;
+   margin-bottom: 1.5rem;
+}
+.Kontak-item i {
+font-size: 24px;
+color: #fFCC00;
+margin-right: 10px;
+
+}
+.Kontak-text{
+    flex: 1;
+}
+.Kontak-text p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.Kontak-form {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding: 1rem;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.Kontak-form h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #080606;
+    border-radius: 6px;
+    font-size: 1.2rem;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+        background-color: #1cb3a6;
+        color: #ffffff;
+        border: none;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        transition: beckground-color 0.3s ease; 
+    }
+    
+    button[type="submit"]:hover{
+        background-color: #555;
+        color: white;
+}
+footer {
+    text-align: center;
+    background-color: #555;
+    color: #f7f3f3;
+    padding: 1rem 0;
+    
+}
